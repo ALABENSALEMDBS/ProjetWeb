@@ -1,0 +1,33 @@
+body{font-family: verdana;}
+
+.style_header
+{
+    color: white;
+    background-color: #444;
+    border: 1px gray solid ;
+    margin: 5px;
+    padding: 8px;
+}
+
+.style_footer
+{
+    color: white;
+    background-color: #444;
+    border: 1px gray solid ;
+    margin: 5px;
+    padding: 8px;
+}
+#style_section
+{
+background-color: #ddd;
+padding: 1px;    
+}
+
+.style_article
+{
+    color: black;
+    background-color: white;
+    border: 1px gray solid ;
+    margin: 5px;
+    padding: 8px;
+}

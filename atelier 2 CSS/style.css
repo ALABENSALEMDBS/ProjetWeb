@@ -1,0 +1,49 @@
+body
+{
+    font-family: trebuchet;
+    margin: 0px;
+}
+
+.LienTitre
+{
+    background-color: red ;
+    color: white;
+    
+}
+
+a{  color: white;
+    text-decoration: none;
+}
+
+a:hover{background-color: yellow;}
+a:active{color: green;}
+a:focus{background-color: red;}
+a:visited{color: black;}
+
+h3{
+    text-decoration: underline;
+    color: red;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+#form_ins{
+    width: 500px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+.btn{
+    background-color:#DED983 ;
+    font-size: 1.2cm;
+    color: #345071;
+    font-family: Trebuchet MS;
+    margin-left: 50px;
+}
+
+.champ{
+    width: 100%;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+
+}
