@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html>
+<head>
+     <meta charset="utf-8">
+     <title>inscription.html</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+     <header class="LienTitre">
+        <nav>
+            <a href ="Exemple.html">Accueil</a>
+            <a href ="Projets.html">Projets</a>
+            <a href ="Services.html">Services</a>
+            <a href ="Inscription.html">Inscription</a>
+ 
+        </nav>
+        <hr>
+        
+     </header>
+     <img src="img.jpg" alt="logo"width="1450" height="400">
+     <hr>
+     <h3>INSCRIPTION</h3>
+     <form id="form_ins">
+
+     <table>
+        <tr>
+            <td class="champ">
+                first name
+            </td>
+            <td class="champ">
+                <input type="text" minlength="3" title="champs obligatoire il doit contenir 3 caractère"> 
+            </td>
+        </tr>
+        <tr>
+            <td class="champ">
+                last name*
+            </td>
+            <td class="champ">
+                <input type="text"  required  minlength="3"  title="champs obligatoire il doit contenir 3 caractère">
+            </td>
+        </tr>
+        <tr>
+            <td class="champ">
+                adresse*
+            </td>
+            <td class="champ">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td class="champ">
+                phone number*
+            </td>
+            <td class="champ">
+                <input type="number" required pattern="[0-9]{8}"  title="entrer un numéro valide">
+            </td>
+        </tr>
+        <tr>
+            <td class="champ">
+                date of borth*
+            </td>
+            <td class="champ">
+                <input type="date">
+            </td>
+        </tr>
+        <tr>
+            <td class="champ">
+                email*
+            </td>
+            <td class="champ">
+                <input placeholder="contact@exemple.com" type="email" required title="entrer un format valide" >
+            </td>
+        </tr>
+        <tr>
+            <td class="champ">
+                password*
+            </td>
+            <td class="champ">
+                <input type="password" required pattern="[a-zA-Z0-9]+" title="entrer un pass valide">
+            </td>
+        </tr>
+        <tr>
+            <td class="champ">
+               confirm password *
+            </td>
+            <td class="champ">
+                <input type="text">
+            </td>
+        </tr>
+        
+     </table>
+     <input class="btn" type="submit" value="submit">
+     <input class="btn" type="reset" value="reset">
+     </form>
+     <hr>
+     <footer class="LienTitre">
+     <pre>
+      <strong>Contactez Nous</strong>
+      <a href= "mailto:esprit@esprit.tn">email : esprit@esprit.tn</a>
+     </pre>
+     </footer>
+    <section
+</body>
+</html>
