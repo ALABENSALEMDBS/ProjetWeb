@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben Salem Ala - contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="bar">
+
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Parcours Académiques.html">Parcours Académiques</a></li>
+                <li> <a href="experience.html">Expériences</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+    </header>
+    <hr>
+    <h3><strong>CONTACTEZ-NOUS</strong></h3>
+<form action="#" method="post" name="form">
+    <table>
+        <tr>
+
+            <td><label for="name" class="form-label">Nom*</label></td>
+            <td> <input type="text" id="name" name="name" minlength="3" required></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Numéro de téléphone*: </label></td>
+            <td><input id="phone" name="phone" type="number" required></td>
+        </tr>
+        <tr>
+            <td><label for="mail">Email*: </label></td>
+            <td><input id="mail" placeholder="contact@exemple.com" name="mail" type="email" required> </td>
+        </tr>
+        <tr>
+            <td><label for="subject" class="form-label">Sujet</label></td>
+            <td><input type="text" class="form-control" id="subject" placeholder="Sujet" required=""></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input id="submit" type="submit" value="Transfer" onclick="inputValidation()"></td>
+        </tr>
+    </table>
+</form>
+    <hr>
+
+    <section>
+        <h3><strong>CONTACTEZ-NOUS</strong></h3>
+    </section>
+
+    <table>
+        <tr>
+            <th><a href="https://www.gmail.com">bensalem.ala@esprit.tn</a></th>
+        </tr>
+    </table>
+
+    <script src="js/contact.js"></script>
+</body>
+
+</html>
